@@ -123,3 +123,8 @@ body {
   margin-bottom: 16px;
   resize: vertical;
 }
+
+.fridges {
+  width: 100%;
+  border: 1px solid;
+}

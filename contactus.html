@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Contact Us</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="https://kit.fontawesome.com/95c4382af2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand navbar-dark">
+    <a class="navbar-brand w-100" href="index.html">Food for All NYC</a>
+    <div class="navbar-nav w-100 justify-content-center">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="aboutus.html">About Us</a>
+      <a class="nav-link" href="ourwork.html">Our Work</a>
+      <a class="nav-link active" aria-current="page">Contact Us</a>
+    </div>
+    <div class="w-100"><!-- SPACING --></div>
+  </nav>
+
+  <!-- CONTACT INFO -->
+  <div class="jumbotron contact-info mb-0">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col text-center">
+          <h1 class="contact-head mb-4">CONNECT WITH US TODAY</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 pb-5">
+      <div class="row">
+        <div class="col-lg-6 pt-3 pb-3">
+          <ul class="contact-left">
+            <li>
+              <p class="lead">
+                <i class="fa-solid fa-phone"></i>
+                425-524-1338
+              </p>
+            </li>
+            <li>
+              <p class="lead">
+                <i class="fa-solid fa-envelope"></i>
+                foodforallnyc@gmail.com
+              </p>
+            </li>
+            <li>
+              <p class="lead">
+                <i class="fa-brands fa-square-instagram"></i>
+                <a href="https://www.instagram.com/stuyvesant_food_security_club/" target="_blank" class="lead">@foodforallnyc</a>
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-6 contact-right text-center pt-3 pb-3">
+          <form id="form-id" class="form-class lead" method="post" action="contact-form.php">
+            <div class="form-row">
+              <div class="col-lg-6">
+                <div class="input-group">
+                    <input type="text" id="Name" placeholder="Name" name="name" class="form-control form-control" required>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <div class="input-group">
+                      <input type="email" id="Email" placeholder="Email" name="email" class="form-control form-control" required>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-lg-12">
+                <div class="form-group">
+                  <div class="input-group">
+                    <input type="text" id="Subject" placeholder="Subject" name="subject" class="form-control form-control" required>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-lg-12">
+                <div class="form-group">
+                  <div class="input-group">
+                      <textarea id="Message" placeholder="Message" name="message" class="form-control form-control" rows="6" maxlength="3000" required></textarea>
+                  </div>
+                </div>
+                <div class="form-group">
+                    <button type="submit" name="submit" id="button" class="btn btn-secondary btn-block">Send</button>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-10 p-5 mx-auto">
+          <h4>MAP HOLDER</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <div class="text-white text-center">
+    <div class="col-lg-12 bg-secondary pt-3 pb-3">
+      EIN: 88-2901560
+    </div>
+    <div class="col-lg-12 bg-dark">
+      &copy; 2023 by Food for All NYC Inc.
+    </div>
+  </div>
+</body>
+</html>

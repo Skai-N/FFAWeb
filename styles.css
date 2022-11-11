@@ -128,3 +128,8 @@ body {
   width: 100%;
   border: 1px solid;
 }
+
+.partners-body {
+  display: flex;
+  align-items: center;
+}

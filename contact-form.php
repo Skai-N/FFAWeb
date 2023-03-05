@@ -5,10 +5,11 @@
   $subject = $_POST['subject'];
 
   $mailTo = "foodforallnyc@gmail.com, skai.nzeuton@gmail.com";
-  $headers = "From: ".$mailFrom." (".$name.")";
+  $from = "From: ".$mailFrom." (".$name.")";
   $txt = "Subject: ".$subject."\n\nMessage:\n\n".$message;
 
-  mail($mailTo, $name, $txt, $headers);
+  mail($mailTo, $from, $txt);
 
-  header("Location: index.html?MessageSent");
+  //header("Location: index.html?MessageSent");
+  //echo("bob");
 ?>
